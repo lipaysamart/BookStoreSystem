@@ -15,3 +15,27 @@ go get "github.com/jinzhu/gorm"
 go get "github.com/jinzhu/gorm/dialects/mysql"
 go get "github.com/gorilla/mux"
 ```
+
+
+## Directer Striction
+___
+```
+├── cmd
+│   └── main
+│       ├── main.exe
+│       └── main.go
+├── go.mod
+├── go.sum
+├── pkg
+│   ├── config
+│   │   └── app.go
+│   ├── controllers
+│   │   └── book-controller.go
+│   ├── models
+│   │   └── book.go
+│   ├── routes
+│   │   └── bookstore-routes.go
+│   └── utils
+│       └── utils.go
+└── README.md
+```
